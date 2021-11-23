@@ -11,7 +11,7 @@ export default function Card(props) {
     <h1>{props.name}</h1>
     <h5>{props.country}</h5>
     <div className={s.containerIcon}>
-      <div className={s.containerI}><img src={`http://openweathermap.org/img/wn/${props.img}@2x.png`} alt="" /></div>
+      <div className={s.containerI}><img src={`https://openweathermap.org/img/wn/${props.img}@2x.png`} alt="" /></div>
       <div className={s.containerT}><h1>{Math.trunc(props.temp)}°</h1></div>
     </div>
 
