@@ -1,0 +1,236 @@
+ /*Mobile disign*/
+@media (min-width: 100px){
+    .cardDiv{
+        color:white;
+        border: solid 2px;
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        height: 350px;
+        text-align: center;
+        min-width: 20%;
+        margin-bottom: 10px;
+    }
+    
+    .containerbtnExit{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .btnExitcard{
+        font-size: 20px;
+        cursor: pointer;
+        border:none;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: flex-start;
+        
+        border-radius: 50%;
+        font-weight: bold;
+    }
+    .btnExitcard:hover {
+        background-color: rgb(25, 25, 35);
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .containerIcon{
+        display: flex;
+        justify-content: space-between;
+    }
+    .containerI{
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 10%;
+    
+    }
+    .containerT{
+        display: flex;
+        justify-content: center;
+        margin-right: 10%;
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .containerMaxmin{
+        display: flex;
+        justify-content: space-around;
+    }
+    .containerMax{
+        font-size: 17px;
+    }
+    .containerMin{
+        font-size: 17px
+    }
+    .containerDetails{
+        padding-top: 42px;
+        display:flex;
+        justify-content: center;
+    }
+    a{
+        color: white;
+        text-decoration: underline white;  
+        font-size: 17px;
+        height: 20px;
+        font-weight: bold;
+        
+    }
+}
+/*Tablet disign*/
+@media (min-width: 768px){
+    .cardDiv{
+        color:white;
+        border: solid 2px;
+        padding: 10px 10px 10px 10px;
+        width: 40%;
+        height: 350px;
+        text-align: center;
+        min-width: 20%;
+        margin-bottom: 10px;
+    }
+    
+    .containerbtnExit{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .btnExitcard{
+        font-size: 20px;
+        cursor: pointer;
+        border:none;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: flex-start;
+        
+        border-radius: 50%;
+        font-weight: bold;
+    }
+    .btnExitcard:hover {
+        background-color: rgb(25, 25, 35);
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .containerIcon{
+        display: flex;
+        justify-content: space-between;
+    }
+    .containerI{
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 10%;
+    
+    }
+    .containerT{
+        display: flex;
+        justify-content: center;
+        margin-right: 10%;
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .containerMaxmin{
+        display: flex;
+        justify-content: space-around;
+    }
+    .containerMax{
+        font-size: 17px;
+    }
+    .containerMin{
+        font-size: 17px
+    }
+    .containerDetails{
+        padding-top: 42px;
+        display:flex;
+        justify-content: center;
+    }
+    a{
+        color: white;
+        text-decoration: underline white;  
+        font-size: 17px;
+        height: 20px;
+        font-weight: bold;
+        
+    }
+}
+
+/* PC/Laptop disign */
+
+@media (min-width: 1024px){
+    .cardDiv{
+        color:white;
+        border: solid 2px;
+        padding: 10px 10px 10px 10px;
+        width: 20%;
+        height: 350px;
+        text-align: center;
+        min-width: 20%;
+        margin-bottom: 10px;
+    }
+    
+    .containerbtnExit{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .btnExitcard{
+        font-size: 20px;
+        cursor: pointer;
+        border:none;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: flex-start;
+        
+        border-radius: 50%;
+        font-weight: bold;
+    }
+    .btnExitcard:hover {
+        background-color: rgb(25, 25, 35);
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .containerIcon{
+        display: flex;
+        justify-content: space-between;
+    }
+    .containerI{
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 10%;
+    
+    }
+    .containerT{
+        display: flex;
+        justify-content: center;
+        margin-right: 10%;
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .containerMaxmin{
+        display: flex;
+        justify-content: space-around;
+    }
+    .containerMax{
+        font-size: 17px;
+    }
+    .containerMin{
+        font-size: 17px
+    }
+    .containerDetails{
+        padding-top: 42px;
+        display:flex;
+        justify-content: center;
+    }
+    a{
+        color: white;
+        text-decoration: underline white;  
+        font-size: 17px;
+        height: 20px;
+        font-weight: bold;
+        
+    }
+}

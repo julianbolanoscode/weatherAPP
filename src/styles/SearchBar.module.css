@@ -1,0 +1,112 @@
+/*Mobile desing*/
+@media (min-width: 100px) {
+
+    i{
+        color: white;
+    }
+
+.inputSearch{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: transparent;
+    color: white;
+    height: 80%;
+    margin: 0 0.5rem 0 0.5rem;
+    width: 210px;
+    outline: none;
+}
+.containerSearchBar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+
+[placeholder]::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.9); }
+[placeholder]:hover::-webkit-input-placeholder { color: rgb(255, 255, 236); }
+[placeholder]:focus::-webkit-input-placeholder { color: rgba(255, 249, 249, 0.61); background-color: rgba(255, 255, 255, 0) }
+[placeholder]{font-size: 17px;}
+
+
+[placeholder]::-moz-placeholder { color: rgba(255,255,255,.8); }
+[placeholder]:hover::-moz-placeholder { color: rgba(255,255,255,.4); }
+[placeholder]:focus::-moz-placeholder { color: black; background-color: white; }
+
+    
+}
+/*Tablet desing*/
+
+@media (min-width: 768px) {
+
+    i{
+        color: white;
+    }
+
+.inputSearch{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: transparent;
+    color: white;
+    height: 80%;
+    margin: 0 0.5rem 0 0.5rem;
+    width: 600px;
+    outline: none;
+}
+.containerSearchBar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+
+[placeholder]::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.9); }
+[placeholder]:hover::-webkit-input-placeholder { color: rgb(255, 255, 236); }
+[placeholder]:focus::-webkit-input-placeholder { color: rgba(255, 249, 249, 0.61); background-color: rgba(255, 255, 255, 0) }
+[placeholder]{font-size: 17px;}
+
+
+[placeholder]::-moz-placeholder { color: rgba(255,255,255,.8); }
+[placeholder]:hover::-moz-placeholder { color: rgba(255,255,255,.4); }
+[placeholder]:focus::-moz-placeholder { color: black; background-color: white; }
+
+    
+}
+/*Laptop and PC desing */
+
+@media (min-width: 1024px) {
+    i{
+        color: white;
+    }
+
+.inputSearch{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: transparent;
+    color: white;
+    height: 80%;
+    margin: 0 0.5rem 0 0.5rem;
+    width: 1200px;
+    outline: none;
+}
+.containerSearchBar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+
+[placeholder]::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.9); }
+[placeholder]:hover::-webkit-input-placeholder { color: rgb(255, 255, 236); }
+[placeholder]:focus::-webkit-input-placeholder { color: rgba(255, 249, 249, 0.61); background-color: rgba(255, 255, 255, 0) }
+[placeholder]{font-size: 17px;}
+
+
+[placeholder]::-moz-placeholder { color: rgba(255,255,255,.8); }
+[placeholder]:hover::-moz-placeholder { color: rgba(255,255,255,.4); }
+[placeholder]:focus::-moz-placeholder { color: black; background-color: white; }
+
+}
+

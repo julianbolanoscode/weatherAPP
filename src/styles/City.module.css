@@ -1,0 +1,111 @@
+ /*Mobile disign*/
+ @media (min-width: 100px){
+    .cardDiv{        
+        color:white;
+        border: solid 2px;
+        padding: 10px 10px 10px 10px;
+        width: 20%;
+        height: 400px;
+        text-align: center;
+        min-width: 250px;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    .containerCity{
+        display: flex;
+        justify-content: center;
+    }
+    .containerBack{
+     display: flex; 
+     justify-content: center;
+     margin-top: 40px;
+    }
+
+    li{
+        list-style-type: circle;
+      }
+    a{
+        color: white;
+        text-decoration: underline white;  
+        font-size: 17px;
+        height: 20px;
+        font-weight: bold;
+        
+    }
+
+ }
+ /*Tablet disign*/
+ @media (min-width: 768px){
+    .cardDiv{        
+        color:white;
+        border: solid 2px;
+        padding: 10px 10px 10px 10px;
+        width: 20%;
+        height: 400px;
+        text-align: center;
+        min-width: 250px;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    .containerCity{
+        display: flex;
+        justify-content: center;
+    }
+    .containerBack{
+     display: flex; 
+     justify-content: center;
+     margin-top: 40px;
+    }
+
+    li{
+        list-style-type: circle;
+      }
+    a{
+        color: white;
+        text-decoration: underline white;  
+        font-size: 17px;
+        height: 20px;
+        font-weight: bold;
+        
+    }
+
+}
+ /*PC/Laptop disign*/
+@media (min-width: 1024px){
+    .cardDiv{        
+        color:white;
+        border: solid 2px;
+        padding: 10px 10px 10px 10px;
+        width: 20%;
+        height: 400px;
+        text-align: center;
+        min-width: 250px;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    .containerCity{
+        display: flex;
+        justify-content: center;
+    }
+    .containerBack{
+     display: flex; 
+     justify-content: center;
+     margin-top: 40px;
+    }
+
+    li{
+        list-style-type: circle;
+      }
+    a{
+        color: white;
+        text-decoration: underline white;  
+        font-size: 17px;
+        height: 20px;
+        font-weight: bold;
+        
+    }
+
+}
