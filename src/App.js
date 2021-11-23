@@ -5,11 +5,14 @@ import City from './components/City.jsx'
 import About from './components/About.jsx'
 import { useState } from 'react';
 import { Route } from 'react-router-dom';
+import toast, { Toaster } from 'react-hot-toast';
 
 function App() {
   const [cities, setCities] = useState([]);
   const apiKey = "4ae2636d8dfbdc3044bede63951a019b";
 
+  const notify = (message) => toast.error(message);
+  
   function onSearch(city) {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
       .then(r => r.json())
@@ -34,13 +37,13 @@ function App() {
             if (i.id === city.id) equals = true
           })
           if (equals === true) {
-            alert("The city is already on screen")
+            notify("The city is already on screen");
           } else {
             setCities(oldCities => [...oldCities, city]);
           }
 
         } else {
-          alert("City no found");
+          notify("City no found")
         }
       }).catch(e => console.log(e));
   }
@@ -71,6 +74,7 @@ function App() {
       </div>
       <Route exact path={"/about"} render={() => <About />} />
       <Route path={"/city/:cityId"} render={({ match }) => <City city={onFilter(match.params.cityId)} />} />
+      <Toaster />
     </div>
   );
 }
