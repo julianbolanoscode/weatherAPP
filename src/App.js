@@ -34,13 +34,13 @@ function App() {
             if (i.id === city.id) equals = true
           })
           if (equals === true) {
-            alert("La ciudad ya está en pantalla")
+            alert("The city is already on screen")
           } else {
             setCities(oldCities => [...oldCities, city]);
           }
 
         } else {
-          alert("Ciudad no encontrada");
+          alert("City no found");
         }
       }).catch(e => console.log(e));
   }
